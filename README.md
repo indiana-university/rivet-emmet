@@ -13,10 +13,10 @@ Compatible with Rivet version `1.0.0`.
   - [PhpStorm](#phpstorm)
   - [Other editors](#other-editors)
 - [Rivet snippets](#rivet-snippets)
-  - Layout
+  - [Layout](#layout)
     - Shells
-    - Grid
-    - Panels
+    - [Grid](#grid)
+    - [Panels](#panels)
   - Navigation
     - Breadcrumb
     - Dropdown
@@ -37,7 +37,9 @@ Compatible with Rivet version `1.0.0`.
     - Text inputs
   - [Overlays](#overlays)
     - [Alerts](#alerts)
-    - Modals
+    - [Modals](#modals)
+  - [Utilities](#utilities)
+    - [Text](#text)
 
 ## Installing Emmet
 
@@ -64,6 +66,32 @@ x
 For more information on installing Emmet for use with other editors, see the [Emmet downloads page](https://emmet.io/download/).
 
 ## Rivet snippets
+
+Emmet snippets are available for each of [Rivet's core components](https://rivet.uits.iu.edu/components/).
+
+### Layout
+
+#### Grid
+
+For more information about this component, see the [Rivet documentation on grid layouts](https://rivet.uits.iu.edu/components/layout/grid/).
+
+| Grid Snippets |
+| ------- |
+| `rvt-container` |
+| `rvt-container:freshman` |
+| `rvt-container:sophomore` |
+| `rvt-container:junior` |
+| `rvt-container:senior` |
+| `rvt-grid-item` |
+
+#### Panels
+
+For more information about this component, see the [Rivet documentation on panels](https://rivet.uits.iu.edu/components/layout/panels/).
+
+| Panel Snippets |
+| ------- |
+| `rvt-panel` |
+| `rvt-panel:light` |
 
 ### Page Content
 
@@ -108,6 +136,7 @@ For more information about this component, see the [Rivet documentation on butto
 | `rvt-button:small:secondary:success` |
 | `rvt-button:small:secondary:danger` |
 | `rvt-button:small:secondary:plain` |
+| `rvt-button:modal` |
 
 ### Overlays
 
@@ -122,3 +151,26 @@ For more information about this component, see the [Rivet documentation on alert
 | `rvt-alert:warning` |
 | `rvt-alert:error` |
 | `rvt-alert:inline` |
+
+#### Modals
+
+For more information about this component, see the [Rivet documentation on modals](https://rivet.uits.iu.edu/components/overlays/modals/).
+
+| Modal Snippets |
+| ------- |
+| `rvt-button:modal` |
+| `rvt-modal` |
+| `rvt-dialog` |
+
+### Utilities
+
+#### Text
+
+For more information about this utility, see the [Rivet documentation on styling text](https://rivet.uits.iu.edu/components/utilities/text/).
+
+| Text Snippets |
+| ------- |
+| `rvt-h1` |
+| `rvt-h2` |
+| `rvt-h3` |
+| `rvt-p` |
