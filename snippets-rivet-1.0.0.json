@@ -1,0 +1,41 @@
+{
+  "html": {
+    "snippets": {
+      "rvt-button-group": "<div class=\"rvt-button-group\">\n\t|\n</div>",
+      "rvt-alert:info": "<div class=\"rvt-alert rvt-alert--info rvt-m-bottom-md\" role=\"alertdialog\" aria-labelledby=\"information-alert-title\">\n\t<h1 class=\"rvt-alert__title\" id=\"information-alert-title\">$1</h1>\n\t<p class=\"rvt-alert__message\">$2</p>\n\t<button class=\"rvt-alert__dismiss\">\n\t\t<span class=\"v-hide\">Dismiss this alert</span>\n\t\t<svg role=\"img\" alt=\"\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\">\n\t\t\t<path fill=\"currentColor\" d=\"M9.41,8l5.29-5.29a1,1,0,0,0-1.41-1.41L8,6.59,2.71,1.29A1,1,0,0,0,1.29,2.71L6.59,8,1.29,13.29a1,1,0,1,0,1.41,1.41L8,9.41l5.29,5.29a1,1,0,0,0,1.41-1.41Z\"/>\n\t\t</svg>\n\t</button>\n</div>",
+      "rvt-alert:success": "<div class=\"rvt-alert rvt-alert--success rvt-m-bottom-md\" role=\"alertdialog\" aria-labelledby=\"success-alert-title\">\n\t<h1 class=\"rvt-alert__title\" id=\"success-alert-title\">$1</h1>\n\t<p class=\"rvt-alert__message\">$2</p>\n\t<button class=\"rvt-alert__dismiss\">\n\t\t<span class=\"v-hide\">Dismiss this alert</span>\n\t\t<svg role=\"img\" alt=\"\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\">\n\t\t\t<path fill=\"currentColor\" d=\"M9.41,8l5.29-5.29a1,1,0,0,0-1.41-1.41L8,6.59,2.71,1.29A1,1,0,0,0,1.29,2.71L6.59,8,1.29,13.29a1,1,0,1,0,1.41,1.41L8,9.41l5.29,5.29a1,1,0,0,0,1.41-1.41Z\"/>\n\t\t</svg>\n\t</button>\n</div>",
+      "rvt-alert:warning": "<div class=\"rvt-alert rvt-alert--warning rvt-m-bottom-md\" role=\"alertdialog\" aria-labelledby=\"warning-alert-title\">\n\t<h1 class=\"rvt-alert__title\" id=\"warning-alert-title\">$1</h1>\n\t<p class=\"rvt-alert__message\">$2</p>\n\t<button class=\"rvt-alert__dismiss\">\n\t\t<span class=\"v-hide\">Dismiss this alert</span>\n\t\t<svg role=\"img\" alt=\"\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\">\n\t\t\t<path fill=\"currentColor\" d=\"M9.41,8l5.29-5.29a1,1,0,0,0-1.41-1.41L8,6.59,2.71,1.29A1,1,0,0,0,1.29,2.71L6.59,8,1.29,13.29a1,1,0,1,0,1.41,1.41L8,9.41l5.29,5.29a1,1,0,0,0,1.41-1.41Z\"/>\n\t\t</svg>\n\t</button>\n</div>",
+      "rvt-alert:error": "<div class=\"rvt-alert rvt-alert--error\" role=\"alert\" aria-labelledby=\"error-alert-title\">\n\t<h1 class=\"rvt-alert__title\" id=\"error-alert-title\">$1</h1>\n\t<p class=\"rvt-alert__message\">$2</p>\n</div>",
+      "rvt-alert:inline": "<div class=\"rvt-inline-alert rvt-inline-alert--standalone rvt-inline-alert--is-invalid\">\n\t<span class=\"rvt-inline-alert__icon\">\n\t\t<svg role=\"img\" alt=\"\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\">\n\t\t\t<g fill=\"currentColor\">\n\t\t\t\t<path d=\"M8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0ZM8,14a6,6,0,1,1,6-6A6,6,0,0,1,8,14Z\" />\n\t\t\t\t\t<path d=\"M10.83,5.17a1,1,0,0,0-1.41,0L8,6.59,6.59,5.17A1,1,0,0,0,5.17,6.59L6.59,8,5.17,9.41a1,1,0,1,0,1.41,1.41L8,9.41l1.41,1.41a1,1,0,0,0,1.41-1.41L9.41,8l1.41-1.41A1,1,0,0,0,10.83,5.17Z\"/>\n\t\t\t</g>\n\t\t</svg>\n\t</span>\n\t<span class=\"rvt-inline-alert__message\" role=\"alert\" id=\"radio-list-message\">\n\t\t$1\n\t</span>\n</div>"
+    },
+    "abbreviations": {
+      "rvt-badge": "<span class=\"rvt-badge\">|</span>",
+      "rvt-badge:action": "<span class=\"rvt-badge rvt-badge--action\">|</span>",
+      "rvt-badge:success": "<span class=\"rvt-badge rvt-badge--success\">|</span>",
+      "rvt-badge:warning": "<span class=\"rvt-badge rvt-badge--warning\">|</span>",
+      "rvt-badge:error": "<span class=\"rvt-badge rvt-badge--error\">|</span>",
+      "rvt-badge:secondary": "<span class=\"rvt-badge rvt-badge--secondary\">|</span>",
+      "rvt-badge:secondary:action": "<span class=\"rvt-badge rvt-badge--action-secondary\">|</span>",
+      "rvt-badge:secondary:success": "<span class=\"rvt-badge rvt-badge--success-secondary\">|</span>",
+      "rvt-badge:secondary:warning": "<span class=\"rvt-badge rvt-badge--warning-secondary\">|</span>",
+      "rvt-badge:secondary:error": "<span class=\"rvt-badge rvt-badge--error-secondary\">|</span>",
+      "rvt-button": "<button class=\"rvt-button\">|</button>",
+      "rvt-button:success": "<button class=\"rvt-button rvt-button--success\">|</button>",
+      "rvt-button:danger": "<button class=\"rvt-button rvt-button--danger\">|</button>",
+      "rvt-button:plain": "<button class=\"rvt-button rvt-button--plain\">|</button>",
+      "rvt-button:secondary": "<button class=\"rvt-button rvt-button--secondary\">|</button>",
+      "rvt-button:secondary:success": "<button class=\"rvt-button rvt-button--success-secondary\">|</button>",
+      "rvt-button:secondary:danger": "<button class=\"rvt-button rvt-button--danger-secondary\">|</button>",
+      "rvt-button:small": "<button class=\"rvt-button rvt-button--small\">|</button>",
+      "rvt-button:small:success": "<button class=\"rvt-button rvt-button--small rvt-button--success\">|</button>",
+      "rvt-button:small:danger": "<button class=\"rvt-button rvt-button--small rvt-button--danger\">|</button>",
+      "rvt-button:small:plain": "<button class=\"rvt-button rvt-button--small rvt-button--plain\">|</button>",
+      "rvt-button:secondary:small": "<button class=\"rvt-button rvt-button--small rvt-button--secondary\">|</button>",
+      "rvt-button:secondary:small:success": "<button class=\"rvt-button rvt-button--small rvt-button--success-secondary\">|</button>",
+      "rvt-button:secondary:small:danger": "<button class=\"rvt-button rvt-button--small rvt-button--danger-secondary\">|</button>",
+      "rvt-button:small:secondary": "<button class=\"rvt-button rvt-button--small rvt-button--secondary\">|</button>",
+      "rvt-button:small:secondary:success": "<button class=\"rvt-button rvt-button--small rvt-button--success-secondary\">|</button>",
+      "rvt-button:small:secondary:danger": "<button class=\"rvt-button rvt-button--small rvt-button--danger-secondary\">|</button>"
+    }
+  }
+}
