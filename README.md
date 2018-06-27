@@ -19,7 +19,7 @@ Compatible with Rivet version `1.0.0`.
     - [Pagination](#pagination)
   - [Page content](#page-content)
     - [Badges](#badges)
-    - Tables
+    - [Tables](#tables)
     - [Tabs](#tabs)
   - [Forms](#forms)
     - [Buttons](#buttons)
@@ -134,6 +134,16 @@ For more information about this component, see the [Rivet documentation on badge
 | `rvt-badge:secondary:success` |
 | `rvt-badge:secondary:warning` |
 | `rvt-badge:secondary:error` |
+
+#### Tables
+
+For more information about this component, see the [Rivet documentation on tables](https://rivet.uits.iu.edu/components/page-content/tables/).
+
+| Table snippets |
+| ------- |
+| `rvt-table` |
+| `rvt-table:striped` |
+| `rvt-table:plain` |
 
 #### Tabs
 
