@@ -37,7 +37,7 @@ Compatible with Rivet version `1.0.0`.
 
 ## Installing Emmet
 
-Emmet is available as a plugin for most editors, including Visual Studio Code, Atom, Sublime Text, and PhpStorm.
+Emmet is available as a plugin for most editors, including [Visual Studio Code](https://code.visualstudio.com/docs/editor/emmet), [Atom](https://github.com/emmetio/emmet-atom#readme), and [Sublime Text](https://github.com/sergeche/emmet-sublime#readme).
 
 For more information on installing Emmet for use with your editor, see the [Emmet downloads page](https://emmet.io/download/).
 
