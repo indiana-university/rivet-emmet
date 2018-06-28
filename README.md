@@ -203,7 +203,12 @@ For more information about this component, see the [Rivet documentation on file 
 
 #### Input group
 
-x
+For more information about this component, see the [Rivet documentation on input groups](https://rivet.uits.iu.edu/components/forms/input-group/).
+
+| Input group snippets |
+| ------- |
+| `rvt-input-group` |
+| `rvt-input-group:button-first` |
 
 #### Radio buttons
 
@@ -215,11 +220,20 @@ For more information about this component, see the [Rivet documentation on radio
 
 #### Select element
 
-x
+For more information about this component, see the [Rivet documentation on select elements](https://rivet.uits.iu.edu/components/forms/select-input/).
+
+| Select element snippets |
+| ------- |
+| `rvt-select` |
 
 #### Text inputs
 
-x
+For more information about this component, see the [Rivet documentation on text inputs](https://rivet.uits.iu.edu/components/forms/text-input/).
+
+| Text input snippets |
+| ------- |
+| `rvt-text-input` |
+| `rvt-textarea` |
 
 ### Overlays
 
