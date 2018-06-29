@@ -96,6 +96,10 @@ For more information about this component, see the [Rivet documentation on heade
 | Header snippets |
 | ------- |
 | `rvt-header` |
+| `rvt-header:identity` |
+| `rvt-nav` |
+| `rvt-nav-item` |
+| `rvt-nav-item-dropdown` |
 
 #### Footer
 
