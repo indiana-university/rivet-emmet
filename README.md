@@ -55,9 +55,9 @@ For more information about this component, see the [Rivet documentation on grid 
 | ------- |
 | `rvt-container` |
 | `rvt-container:freshman` |
-| `rvt-container:sophomore` |
-| `rvt-container:junior` |
-| `rvt-container:senior` |
+| `rvt-container-sophomore` |
+| `rvt-container-junior` |
+| `rvt-container-senior` |
 | `rvt-grid-item` |
 
 #### Panels
@@ -67,7 +67,7 @@ For more information about this component, see the [Rivet documentation on panel
 | Panel snippets |
 | ------- |
 | `rvt-panel` |
-| `rvt-panel:light` |
+| `rvt-panel-light` |
 
 ### Navigation
 
@@ -78,7 +78,7 @@ For more information about this component, see the [Rivet documentation on bread
 | Breadcrumb snippets |
 | ------- |
 | `rvt-breadcrumbs` |
-| `rvt-breadcrumbs:callout` |
+| `rvt-breadcrumbs-callout` |
 
 #### Dropdown
 
@@ -96,7 +96,7 @@ For more information about this component, see the [Rivet documentation on heade
 | Header snippets |
 | ------- |
 | `rvt-header` |
-| `rvt-header:identity` |
+| `rvt-header-identity` |
 | `rvt-nav` |
 | `rvt-nav-item` |
 | `rvt-nav-item-dropdown` |
@@ -116,9 +116,9 @@ For more information about this component, see the [Rivet documentation on pagin
 | Pagination snippets |
 | ------- |
 | `rvt-pagination` |
-| `rvt-pagination:right` |
-| `rvt-pagination:small` |
-| `rvt-pagination:small:right` |
+| `rvt-pagination-right` |
+| `rvt-pagination-small` |
+| `rvt-pagination-small-right` |
 
 ### Page Content
 
@@ -129,15 +129,15 @@ For more information about this component, see the [Rivet documentation on badge
 | Badge snippets |
 | ------- |
 | `rvt-badge` |
-| `rvt-badge:action` |
-| `rvt-badge:success` |
-| `rvt-badge:warning` |
-| `rvt-badge:error` |
-| `rvt-badge:secondary` |
-| `rvt-badge:secondary:action` |
-| `rvt-badge:secondary:success` |
-| `rvt-badge:secondary:warning` |
-| `rvt-badge:secondary:error` |
+| `rvt-badge-action` |
+| `rvt-badge-success` |
+| `rvt-badge-warning` |
+| `rvt-badge-error` |
+| `rvt-badge-secondary` |
+| `rvt-badge-secondary-action` |
+| `rvt-badge-secondary-success` |
+| `rvt-badge-secondary-warning` |
+| `rvt-badge-secondary-error` |
 
 #### Tables
 
@@ -146,8 +146,8 @@ For more information about this component, see the [Rivet documentation on table
 | Table snippets |
 | ------- |
 | `rvt-table` |
-| `rvt-table:striped` |
-| `rvt-table:plain` |
+| `rvt-table-striped` |
+| `rvt-table-plain` |
 
 #### Tabs
 
@@ -156,8 +156,8 @@ For more information about this component, see the [Rivet documentation on tabs]
 | Tab snippets |
 | ------- |
 | `rvt-tabs` |
-| `rvt-tabs:fitted` |
-| `rvt-tabs:vertical` |
+| `rvt-tabs-fitted` |
+| `rvt-tabs-vertical` |
 | `rvt-tab` |
 
 ### Forms
@@ -169,24 +169,24 @@ For more information about this component, see the [Rivet documentation on butto
 | Button snippets |
 | ------- |
 | `rvt-button-group` |
-| `rvt-button-group:segmented` |
-| `rvt-button-group:segmented:fitted` |
+| `rvt-button-group-segmented` |
+| `rvt-button-group-segmented-fitted` |
 | `rvt-button` |
-| `rvt-button:success` |
-| `rvt-button:danger` |
-| `rvt-button:plain` |
-| `rvt-button:secondary` |
-| `rvt-button:secondary:success` |
-| `rvt-button:secondary:danger` |
-| `rvt-button:small` |
-| `rvt-button:small:success` |
-| `rvt-button:small:danger` |
-| `rvt-button:small:plain` |
-| `rvt-button:small:secondary` |
-| `rvt-button:small:secondary:success` |
-| `rvt-button:small:secondary:danger` |
-| `rvt-button:small:secondary:plain` |
-| `rvt-button:modal` |
+| `rvt-button-success` |
+| `rvt-button-danger` |
+| `rvt-button-plain` |
+| `rvt-button-secondary` |
+| `rvt-button-secondary-success` |
+| `rvt-button-secondary-danger` |
+| `rvt-button-small` |
+| `rvt-button-small-success` |
+| `rvt-button-small-danger` |
+| `rvt-button-small-plain` |
+| `rvt-button-small-secondary` |
+| `rvt-button-small-secondary-success` |
+| `rvt-button-small-secondary-danger` |
+| `rvt-button-small-secondary-plain` |
+| `rvt-button-modal` |
 
 #### Checkboxes
 
@@ -203,7 +203,7 @@ For more information about this component, see the [Rivet documentation on file 
 | File input snippets |
 | ------- |
 | `rvt-upload` |
-| `rvt-upload:multiple` |
+| `rvt-upload-multiple` |
 
 #### Input group
 
@@ -212,7 +212,7 @@ For more information about this component, see the [Rivet documentation on input
 | Input group snippets |
 | ------- |
 | `rvt-input-group` |
-| `rvt-input-group:button-first` |
+| `rvt-input-group-button-first` |
 
 #### Radio buttons
 
@@ -247,11 +247,11 @@ For more information about this component, see the [Rivet documentation on alert
 
 | Alert snippets |
 | ------- |
-| `rvt-alert:info` |
-| `rvt-alert:success` |
-| `rvt-alert:warning` |
-| `rvt-alert:error` |
-| `rvt-alert:inline` |
+| `rvt-alert-info` |
+| `rvt-alert-success` |
+| `rvt-alert-warning` |
+| `rvt-alert-error` |
+| `rvt-alert-inline` |
 
 #### Modals
 
@@ -259,7 +259,7 @@ For more information about this component, see the [Rivet documentation on modal
 
 | Modal snippets |
 | ------- |
-| `rvt-button:modal` |
+| `rvt-button-modal` |
 | `rvt-modal` |
 | `rvt-dialog` |
 
