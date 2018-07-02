@@ -54,7 +54,7 @@ For more information about this component, see the [Rivet documentation on grid 
 | Grid snippets |
 | ------- |
 | `rvt-container` |
-| `rvt-container:freshman` |
+| `rvt-container-freshman` |
 | `rvt-container-sophomore` |
 | `rvt-container-junior` |
 | `rvt-container-senior` |
