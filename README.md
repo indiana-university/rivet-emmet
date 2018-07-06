@@ -7,6 +7,7 @@ Compatible with Rivet version `1.0.0`.
 ## Table of contents
 
 - [Installing Emmet](#installing-emmet)
+  - [Enabling line breaks](#enabling-line-breaks)
 - [Rivet snippets](#rivet-snippets)
   - [Layout](#layout)
     - [Grid](#grid)
@@ -40,6 +41,32 @@ Compatible with Rivet version `1.0.0`.
 Emmet is available as a plugin for most editors, including [Visual Studio Code](https://code.visualstudio.com/docs/editor/emmet), [Atom](https://github.com/emmetio/emmet-atom#readme), and [Sublime Text](https://github.com/sergeche/emmet-sublime#readme).
 
 For more information on installing Emmet for use with your editor, see the [Emmet downloads page](https://emmet.io/download/).
+
+### Enabling line breaks
+
+If you're using Visual Studio Code or Atom, you'll have to enable formatting for newlines (`\n`) in Emmet before you can start using the Rivet snippets.
+
+#### Atom
+
+To enable newline formatting for Emmet snippets in Atom:
+
+1. Open the Emmet package preferences under **Atom > Preferences > Packages**.
+2. In the **Settings** section of the Emmet preferences page, check **Format Line Breaks**.
+
+#### Visual Studio Code
+
+To enable newline formatting for Emmet snippets in Visual Studio Code:
+
+1. Open the Visual Studio Code settings pane under **Code > Preferences > Settings**.
+2. In the **User Settings** pane on the right-hand side, add the following JSON:
+
+```json
+"emmet.syntaxProfiles": {
+  "html": {
+    "inline_break": 1
+  }
+}
+```
 
 ## Rivet snippets
 
