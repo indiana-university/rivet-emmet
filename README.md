@@ -9,6 +9,7 @@ Compatible with Rivet version `1.0.0`.
 - [Installing Emmet](#installing-emmet)
   - [Enabling line breaks](#enabling-line-breaks)
 - [Rivet snippets](#rivet-snippets)
+  - [Starter template](#starter-template)
   - [Layout](#layout)
     - [Grid](#grid)
     - [Panels](#panels)
@@ -77,6 +78,14 @@ To enable newline formatting for Emmet snippets in Atom:
 ## Rivet snippets
 
 Emmet snippets are available for each of [Rivet's core components](https://rivet.uits.iu.edu/components/).
+
+### Starter template
+
+| Starter template snippets |
+| ------- |
+| `rvt-start` |
+| `rvt-css` |
+| `rvt-js` |
 
 ### Layout
 
