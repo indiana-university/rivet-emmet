@@ -2,7 +2,7 @@
 
 A set of [Emmet](https://emmet.io/) snippets for use with Indiana University's [Rivet software design system](https://rivet.uits.iu.edu/).
 
-Compatible with Rivet version `1.0.0`.
+Compatible with Rivet version `1.1.0`.
 
 ## Table of contents
 
@@ -188,7 +188,9 @@ For more information about this component, see the [Rivet documentation on table
 | Table snippets |
 | ------- |
 | `rvt-table` |
+| `rvt-table-compact` |
 | `rvt-table-striped` |
+| `rvt-table-bordered-cells` |
 | `rvt-table-plain` |
 
 #### Tabs
@@ -229,6 +231,7 @@ For more information about this component, see the [Rivet documentation on butto
 | `rvt-button-small-secondary-danger` |
 | `rvt-button-small-secondary-plain` |
 | `rvt-button-modal` |
+| `rvt-button-full-width` |
 
 #### Checkboxes
 
